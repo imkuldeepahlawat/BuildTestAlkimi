@@ -13,13 +13,15 @@ const AboutUs = () => {
         {/* left */}
         <Image
           className="absolute w-full h-full  z-1 top-0 bottom-0 left-0 right-0 opacity-0  hover:opacity-100 hover:blur-sm duration-400"
-          src={bgimage} alt="mainAboutusImage"
+          src={bgimage}
+          alt="mainAboutusImage"
         />
         <Image
           className="absolute pointer-events-none w-[353px] h-[373px] top-[195px] -z-50 left-[235px] "
           src={circleimage}
-         alt="circleimgae"/>
-        <div className="z-10 ml-10 pointer-events-none uppercase w-50 justify-start hover:text-black">
+          alt="circleimgae"
+        />
+        <div className="z-10 ml-10 pointer-events-none uppercase w-50 justify-start ">
           <div className=" font-extrabold text-[120px] text-shadow-md">
             <h3>about</h3>
             <h3>us</h3>
